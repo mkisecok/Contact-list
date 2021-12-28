@@ -17,6 +17,7 @@ import './Contacts.css'
 
     return (
         <div id='container'>
+            <h1>Contacts</h1>
             <List contacts={contacts}/>
             <Form addContacts={setContacts} contacts={contacts} />
         </div>

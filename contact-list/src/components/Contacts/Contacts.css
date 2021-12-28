@@ -1,12 +1,13 @@
 #container{
     width: 400px;
-    background-color: tomato;
+    background-color:bisque;
     padding: 20px;
 }
 input{
     width: 100%;
     box-sizing: border-box;
     padding: 5px;
+    margin: 2px;
 }
 ul,li{
     margin: 0;
@@ -20,4 +21,20 @@ ul,li{
     background-color: thistle;
     padding: 5px;
     margin-bottom:2px ;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+    
+
+}
+.btn>button{
+    
+    background-color: rgb(27, 27, 110);
+    color: white;
+    width: 50px;
 }
