@@ -6,11 +6,14 @@ import './Contacts.css'
  const Contacts= () => {
      const [contacts, setContacts] = useState([
          {
-             fullname:'mahmut',
+             fullname:'max',
              phone_number:1234456
          },{
-             fullname:'ali',
+             fullname:'john',
              phone_number:456123
+         },{
+             fullname:'hennry',
+             phone_number:789654
          }
      ]);
      useEffect(()=>{},[contacts])
