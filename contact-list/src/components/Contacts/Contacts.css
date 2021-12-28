@@ -1,0 +1,23 @@
+#container{
+    width: 400px;
+    background-color: tomato;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list{
+    margin:15px 0 ;
+}
+.list>li{
+    background-color: thistle;
+    padding: 5px;
+    margin-bottom:2px ;
+}
