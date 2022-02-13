@@ -1,6 +1,6 @@
 #container{
     width: 400px;
-    background-color:bisque;
+    background-color:#ffe4c4;
     padding: 20px;
 }
 input{
@@ -18,7 +18,7 @@ ul,li{
     margin:15px 0 ;
 }
 .list>li{
-    background-color: thistle;
+    background-color: #d8bfd8;
     padding: 5px;
     margin-bottom:2px ;
     display: flex;
@@ -34,7 +34,9 @@ ul,li{
 }
 .btn>button{
     
-    background-color: rgb(27, 27, 110);
+    background-color: #438d92;
     color: white;
     width: 50px;
+    padding:5px  10px;
+    font-weight: 700;
 }

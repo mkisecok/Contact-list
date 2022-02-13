@@ -21,8 +21,10 @@ import './Contacts.css'
     return (
         <div id='container'>
             <h1>Contacts</h1>
-            <List contacts={contacts}/>
+            <h2>Add new contact </h2>
             <Form addContacts={setContacts} contacts={contacts} />
+            <h2>Find Person</h2>
+            <List contacts={contacts}/>
         </div>
     )
 }
